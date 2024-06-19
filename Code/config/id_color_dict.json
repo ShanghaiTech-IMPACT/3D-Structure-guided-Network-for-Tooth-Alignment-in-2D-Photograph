@@ -1,0 +1,39 @@
+{
+    "id_color_dict": {
+    "1": "Orchid",
+    "2": "Firebrick",
+    "3": "SpringGreen",
+    "4": "BlueViolet",
+    "5": "RoyalBlue",
+    "6": "MidnightBlue",
+    "7": "Deepskyblue",
+    "8": "Purple",
+    
+    "9": "Blue",
+    "10": "Magenta",
+    "11": "MediumBlue",
+    "12": "DarkViolet",
+    "13": "DarkTurquoise",
+    "14": "DeepPink",
+    "15": "SaddleBrown",
+    "16": "Cyan",
+
+    "17": "Aliceblue",
+    "18": "SlateGrey",
+    "19": "Maroon",
+    "20": "ForestGreen",
+    "21": "Sienna",
+    "22": "DarkSlateGray",
+    "23": "Orangered",
+    "24": "Red",
+
+    "25": "Green",
+    "26": "Brown",
+    "27": "DarkCyan",
+    "28": "Lime",
+    "29": "Darkblue",
+    "30": "Chocolate",
+    "31": "DarkGreen",
+    "32": "Tan"
+    }
+}

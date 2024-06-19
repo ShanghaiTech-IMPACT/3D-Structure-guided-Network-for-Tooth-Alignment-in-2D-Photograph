@@ -1,0 +1,10 @@
+C2C2T_v2_facecolor_lightcolor:
+  mode: 'C2C2T_v2_facecolor_lightcolor'
+
+  out_path: '../Output'
+  logger: true
+  stage1: 'Stage1/SegmentToothContour/ckpt/ckpt_4800.pth'
+  stage2: 'Stage2/ckpt/ckpt_contour2contour_mixed_v2_ContourSegm_4000.pth'
+  stage3: 'Stage3/ckpt/ckpt_contour2tooth_v2_ContourSegm_facecolor_lightcolor_10000.pth'
+
+

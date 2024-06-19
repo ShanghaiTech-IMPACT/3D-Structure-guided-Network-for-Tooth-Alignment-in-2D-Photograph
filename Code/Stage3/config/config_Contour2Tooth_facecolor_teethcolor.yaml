@@ -1,0 +1,26 @@
+GeneratorConfig:
+  unet:
+    in_channel: 15
+    out_channel: 3
+    inner_channel: 64
+    channel_mults:
+    - 1
+    - 2
+    - 4
+    - 8
+    attn_res: 
+    - 16
+    num_head_channels: 32
+    res_blocks: 2
+    dropout: 0.2
+    image_size: 256    
+    
+  beta_schedule:
+    # schedule:linears
+    # timesteps: [20 20 40]
+    # linears:[1e-4 1e-3 1e-2 1e-1]
+    schedule: 'quad'
+    n_timestep: 60
+    linear_start: !!float 1e-4
+    linear_end: !!float 1e-1
+
