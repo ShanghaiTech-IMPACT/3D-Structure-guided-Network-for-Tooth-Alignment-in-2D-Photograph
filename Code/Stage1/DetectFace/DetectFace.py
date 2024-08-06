@@ -19,10 +19,16 @@ def DetectFace(img_path, newsize=(512, 512)):
     img = cv2.imread(img_path)
     face, landmarks = face_landmark_detect(img)
 
+    # make sure the coordinates will not exceed the img
+    h, w = img.shape[:2]
     y1 = face.top() if face.top() > 0 else 0
+    y1 = y1 if y1 < h else h-1
     y2 = face.bottom() if face.bottom() > 0 else 0
+    y2 = y2 if y2 < h else h-1
     x1 = face.left() if face.left() > 0 else 0
+    x1 = x1 if x1 < w else w-1
     x2 = face.right() if face.right() > 0 else 0
+    x2 = x2 if x2 < w else w-1
 
     Face = img[y1:y2+1, x1:x2+1]
     Face = cv2.resize(Face, newsize)
