@@ -19,7 +19,7 @@ The code is organized as follows:
 ## How to Use
 
 ### Get started
-We run with Python 3.7, you can set up a conda environment with all dependencies.
+We run with Python 3.7 on Windows, you can set up a conda environment with all dependencies according to ***Code/requirements.txt***.
 
 ### Download model weights
 * Refer to the links in [Code/Stage2/ckpt/download_ckpt.txt](./Code/Stage2/ckpt/download_ckpt.txt), download the model weights and put as ***Code/Stage2/ckpt/ckpt_contour2contour_mixed_v2_ContourSegm_4000.pth***.
